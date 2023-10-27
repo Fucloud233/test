@@ -1,7 +1,7 @@
-from utils.reader import Reader
+from utils.config import Config
 
 def main():
-    print(Reader.line)
+    print(Config.info)
 
 if __name__ == '__main__':
     main()

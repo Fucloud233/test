@@ -1,9 +1,11 @@
 import sys
 
-# sys.path.append(".")
-# from utils.reader import Reader
+# incorrect
+# sys.path.append("./utils")
+# from config import Config
 
-sys.path.append("./utils")
-from reader import Reader
+# correct
+sys.path.append(".")
+from utils.config import Config
 
-Reader.load_line("text.txt")
+Config.load_info("config.json")
